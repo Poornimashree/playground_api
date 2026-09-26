@@ -21,7 +21,7 @@ jobs:
             && source install.sh
       - name: Run Keploy Test Suite
         env:
-          KEPLOY_API_KEY: ${{ secrets.KEPLOY_API_KEY }}
+          KEPLOY_API_KEY: ${{ secrets.TOKEN }}
         run: |
           export KEPLOY_API_KEY=${KEPLOY_API_KEY} && keploy test-suite \
             --app=925eafa6-1d13-4513-8057-654bb6e31a97 \
