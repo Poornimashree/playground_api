@@ -27,4 +27,4 @@ jobs:
             --app=925eafa6-1d13-4513-8057-654bb6e31a97 \
             --base-path https://playground.nileslabs.com/site.webmanifest \
             --cloud \
-            --create-branch "ci/${GITHUB_HEAD_REF:-${GITHUB_REF_NAME:-${CI_COMMIT_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}}}"
+            --branch-id cc6c643c-0376-41df-9b48-72d137751273
