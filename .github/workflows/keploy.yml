@@ -24,7 +24,7 @@ jobs:
           KEPLOY_API_KEY: ${{ secrets.KEPLOY_API_KEY }}
         run: |
           export KEPLOY_API_KEY=kep_skxL-1cuY2e3HCGb39WQ-Ch0QZ74quO0nof4k84g_LI && keploy test-suite \
-            --app=359356cc-009e-4a27-9963-a7bd3fc114a0 \
+            --app=925eafa6-1d13-4513-8057-654bb6e31a97 \
             --base-path https://playground.nileslabs.com \
             --cloud \
             --create-branch "ci/${GITHUB_HEAD_REF:-${GITHUB_REF_NAME:-${CI_COMMIT_REF_NAME:-$(git rev-parse \
